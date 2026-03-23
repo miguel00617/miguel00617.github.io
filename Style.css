@@ -1,27 +1,139 @@
-
+/* RESET */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #0f172a;
-    color: white;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
 }
 
+/* CONTENEDOR */
 .container {
-    width: 80%;
+    width: 85%;
     margin: auto;
     padding: 20px;
 }
 
+/* HEADER */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 h1 {
-    font-size: 40px;
+    font-size: 42px;
+    margin-bottom: 10px;
 }
 
+.subtitle {
+    font-size: 18px;
+    color: #38bdf8;
+}
+
+.description {
+    max-width: 600px;
+    margin: auto;
+    color: #cbd5f5;
+}
+
+/* TITULOS */
+h2 {
+    margin-top: 40px;
+    border-bottom: 2px solid #38bdf8;
+    padding-bottom: 5px;
+}
+
+/* GRID PROYECTOS */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+/* CARDS */
 .card {
-    background-color: #1e293b;
+    background: #1e293b;
     padding: 20px;
-    margin: 15px 0;
-    border-radius: 10px;
+    margin: 10px 0;
+    border-radius: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+}
 
+.card h3 {
+    margin-top: 0;
+}
+
+.tech {
+    color: #94a3b8;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* LINKS */
+a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.skills span {
+    background: #1e293b;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* CONTACTO */
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.contact a {
+    background: #1e293b;
+    padding: 12px 18px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s;
+}
+
+.contact a:hover {
+    background: #38bdf8;
+    color: black;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #64748b;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
