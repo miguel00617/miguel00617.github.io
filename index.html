@@ -1,55 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title> Matías Loayza | Data Analyst</title>
+  <meta charset="UTF-8">
+  <title>Matias Loayza | Data Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<link rel="stylesheet" href="styles.css">
+
 <body>
-<h1>Matias Loayza</h1>
-<p>Data Analyst | Data Engineer</p>
 
-<h2>About Me</h2>
-<p>
-Soy analista de datos con experiencia en Python, SQL, Spark, R y Power BI.
-Actualmente desarrollo proyectos de ingeniería de datos y machine learning.
-</p>
+<div class="container">
 
-<h2>Projects</h2>
+  <!-- HEADER -->
+  <header>
+    <h1>Matias Loayza</h1>
+    <p class="subtitle">Data Analyst | Data Engineer</p>
+    <p class="description">
+      Especializado en análisis de datos, ingeniería de datos y machine learning.
+      Experiencia en construcción de pipelines ETL, análisis exploratorio y modelos predictivos.
+    </p>
+  </header>
 
-<h3> 1ero: <h3>    
-<div class="card">
-  <h3>ETL Weather Pipeline</h3>
-  <p>Pipeline con Spark, Airflow y Docker usando Open-Meteo API.</p>
-  <a href="https://github.com/miguel00617">Ver proyecto</a>
+  <!-- DATA ENGINEERING -->
+  <section>
+    <h2>⚙️ Ingeniería de Datos</h2>
+
+    <div class="card">
+      <h3>ETL Weather Data Pipeline</h3>
+      <p>
+        Pipeline completo de datos meteorológicos con extracción desde API,
+        transformación con Spark y orquestación con Airflow.
+      </p>
+      <p class="tech">Python • Spark • Airflow • Docker • MinIO</p>
+      <a href="https://github.com/miguel00617/Open_Meteo" target="_blank">Ver proyecto</a>
+    </div>
+
+    <div class="card">
+      <h3>Base de Datos MySQL (Mayorista)</h3>
+      <p>
+        Diseño e implementación de base de datos relacional con consultas optimizadas
+        para análisis de ventas.
+      </p>
+      <p class="tech">MySQL</p>
+      <a href="https://github.com/miguel00617/Database-Missi-Pet" target="_blank">Ver proyecto</a>
+    </div>
+
+  </section>
+
+  <!-- DATA ANALYSIS -->
+  <section>
+    <h2>📊 Análisis de Datos</h2>
+
+    <div class="card">
+      <h3>Power BI Dashboard</h3>
+      <p>
+        Análisis completo con modelado de datos, DAX y dashboards interactivos
+        para la toma de decisiones.
+      </p>
+      <p class="tech">Power BI • DAX</p>
+      <a href="https://github.com/miguel00617/AD-en-Power-Bi" target="_blank">Ver proyecto</a>
+    </div>
+
+    <div class="card">
+      <h3>Análisis de Criminalidad</h3>
+      <p>
+        Exploración de datos para detectar patrones y zonas críticas
+        en seguridad pública.
+      </p>
+      <p class="tech">Python • Pandas • Matplotlib</p>
+      <a href="https://github.com/miguel00617/AD-con-Python" target="_blank">Ver proyecto</a>
+    </div>
+
+  </section>
+
+  <!-- MACHINE LEARNING -->
+  <section>
+    <h2>🤖 Machine Learning</h2>
+
+    <div class="card">
+      <h3>Predicción de Ventas (LSTM)</h3>
+      <p>
+        Modelo de deep learning para series temporales capaz de capturar
+        estacionalidad y tendencias de ventas.
+      </p>
+      <p class="tech">Python • TensorFlow</p>
+      <a href="https://github.com/miguel00617/Prediccion_VentasRNN" target="_blank">Ver proyecto</a>
+    </div>
+
+    <div class="card">
+      <h3>Modelos de Clasificación</h3>
+      <p>
+        Implementación de modelos como Regresión Logística y KNN para
+        clasificación de clientes y detección de fraude.
+      </p>
+      <p class="tech">Python • Scikit-learn</p>
+      <a href="https://github.com/miguel00617" target="_blank">Ver proyectos</a>
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h2>🛠️ Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>SQL</span>
+      <span>Spark</span>
+      <span>Airflow</span>
+      <span>Docker</span>
+      <span>Power BI</span>
+      <span>Machine Learning</span>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Matias Loayza</p>
+  </footer>
+
 </div>
-
-<a href="https://github.com/miguel00617/Open_Meteo">Ver proyecto</a>
-
-<h3>Sales Forecast LSTM</h3>
-<p>
-Modelo de deep learning para predicción de ventas usando TensorFlow.
-</p>
-
-<h2>Skills</h2>
-
-<ul>
-<li>Python</li>
-<li>SQL</li>
-<li>Spark</li>
-<li>Airflow</li>
-<li>Docker</li>
-<li>Power BI</li>
-</ul>
-
-<h2>Contact</h2>
-<ul>
-<li><a href= "www.linkedin.com/in/matias-loayza-317051259" >LinkedIn</a></li>
-<li><a href= "https://github.com/miguel00617/My-Portfolio" >GitHub</a></li>
-<li><p>Gmail: matiasloayza86@gmail.com</p> </li>
-</ul>
-
-
-
 
 </body>
 </html>
+
